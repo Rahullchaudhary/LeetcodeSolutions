@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class ScrambleString {
     Map<String, Boolean> mp = new HashMap<>();
     public boolean isScramble(String s1, String s2) {
         int n = s1.length();
